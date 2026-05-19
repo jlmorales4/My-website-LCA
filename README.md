@@ -1,6 +1,6 @@
-# LCA Website
+# Vite + Vanilla JS LCA Website
 
-A Life Cycle Assessment website built with Vite and Google AI Studio.
+This is a Life Cycle Assessment (LCA) website built with Vite and Vanilla JavaScript, created using Google AI Studio.
 
 ## Getting Started
 
@@ -11,54 +11,59 @@ A Life Cycle Assessment website built with Vite and Google AI Studio.
 ### Installation
 
 ```bash
-# Install dependencies
 npm install
 ```
 
 ### Development
 
+Start the development server:
+
 ```bash
-# Start the development server
 npm run dev
 ```
 
-The application will open in your browser at `http://localhost:3000`.
+The site will open at `http://localhost:3000` with hot module replacement enabled.
 
 ### Build
 
+Build for production:
+
 ```bash
-# Build for production
 npm run build
 ```
 
-The production-ready files will be in the `dist` directory.
+The optimized files will be in the `dist` directory.
 
 ### Preview
 
+Preview the production build locally:
+
 ```bash
-# Preview the production build locally
 npm run preview
 ```
 
 ## Project Structure
 
 ```
-├── index.html          # Entry HTML file
-├── src/
-│   ├── main.js        # Application entry point
-│   └── style.css      # Global styles
-├── vite.config.js     # Vite configuration
-└── package.json       # Project dependencies and scripts
+My-website-LCA/
+├── index.html       # Main HTML file
+├── package.json     # Project dependencies
+├── vite.config.js   # Vite configuration
+└── src/
+    ├── main.js      # Entry point
+    └── style.css    # Stylesheet
 ```
 
-## Features
+## About Vite
 
-- ⚡ **Lightning Fast** - Powered by Vite
-- 📦 **Optimized Build** - Automatic code splitting and minification
-- 🔄 **Hot Module Replacement** - Instant updates during development
-- 🎯 **Modern JavaScript** - ES modules support
+Vite is a modern build tool that provides a fast development experience with:
+- Instant server start
+- Lightning-fast HMR (Hot Module Replacement)
+- Optimized build output
+- Native ES modules support
 
-## Learn More
+Learn more: https://vitejs.dev
 
-- [Vite Documentation](https://vitejs.dev)
-- [Google AI Studio](https://aistudio.google.com)
+## License
+
+MIT
